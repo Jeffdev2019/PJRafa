@@ -1,0 +1,34 @@
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Infra.dll.config
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Infra.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Infra.pdb
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Infra\obj\Debug\PJRafa_Infra.csprojResolveAssemblyReference.cache
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Infra\obj\Debug\PJRafa_Infra.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Infra\obj\Debug\PJRafa_Infra.pdb
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Domain.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Domain.pdb
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Infra.dll.config
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Infra.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Infra.pdb
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Domain.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Domain.pdb
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Infra\obj\Debug\PJRafa_Infra.csprojAssemblyReference.cache
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Infra\obj\Debug\PJRafa_Infra.csproj.CoreCompileInputs.cache
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Infra\obj\Debug\PJRafa_Infra.csproj.CopyComplete
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Infra\obj\Debug\PJRafa_Infra.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Infra\obj\Debug\PJRafa_Infra.pdb
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Infra.dll.config
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Infra.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Infra.pdb
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Domain.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Domain.pdb
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Infra\obj\Debug\PJRafa_Infra.csprojAssemblyReference.cache
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Infra\obj\Debug\PJRafa_Infra.csproj.CoreCompileInputs.cache
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Infra\obj\Debug\PJRafa_Infra.csproj.CopyComplete
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Infra\obj\Debug\PJRafa_Infra.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Infra\obj\Debug\PJRafa_Infra.pdb
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Infra\bin\Debug\ViaCEP.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Infra\bin\Debug\Newtonsoft.Json.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Infra\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Domain.dll.config
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Infra\bin\Debug\Newtonsoft.Json.xml
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Infra\bin\Debug\System.Net.Http.Formatting.xml

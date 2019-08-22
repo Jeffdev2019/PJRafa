@@ -1,0 +1,94 @@
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\PJRafa_Web.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\PJRafa_Web.pdb
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\Antlr3.Runtime.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.Core.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\EntityFramework.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\System.Web.Optimization.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\System.Web.Providers.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\WebGrease.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\EntityFramework.xml
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.Core.xml
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\obj\Debug\PJRafa_Web.csprojResolveAssemblyReference.cache
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\obj\Debug\PJRafa_Web.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Web\obj\Debug\PJRafa_Web.pdb
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\PJRafa_Web.dll.config
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\PJRafa_Web.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\PJRafa_Web.pdb
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\Antlr3.Runtime.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.Core.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\EntityFramework.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\System.Web.Optimization.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\System.Web.Providers.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\WebGrease.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\EntityFramework.xml
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.Core.xml
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\obj\Debug\PJRafa_Web.csprojAssemblyReference.cache
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\obj\Debug\PJRafa_Web.csproj.CoreCompileInputs.cache
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\obj\Debug\PJRafa_Web.csproj.CopyComplete
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\obj\Debug\PJRafa_Web.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Web\obj\Debug\PJRafa_Web.pdb
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\PJRafa_Web.dll.config
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\PJRafa_Web.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\PJRafa_Web.pdb
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\Antlr3.Runtime.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.Core.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\EntityFramework.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\System.Web.Optimization.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\System.Web.Providers.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\WebGrease.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\EntityFramework.xml
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.Core.xml
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\obj\Debug\PJRafa_Web.csprojAssemblyReference.cache
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\obj\Debug\PJRafa_Web.csproj.CoreCompileInputs.cache
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\obj\Debug\PJRafa_Web.csproj.CopyComplete
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\obj\Debug\PJRafa_Web.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Web\obj\Debug\PJRafa_Web.pdb

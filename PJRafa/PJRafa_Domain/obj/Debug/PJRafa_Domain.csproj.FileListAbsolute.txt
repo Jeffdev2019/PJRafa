@@ -1,0 +1,24 @@
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Domain\obj\Debug\PJRafa_Domain.csprojResolveAssemblyReference.cache
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Domain\bin\Debug\PJRafa_Domain.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Domain\bin\Debug\PJRafa_Domain.pdb
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Domain\obj\Debug\PJRafa_Domain.dll
+C:\Users\re038546\documents\visual studio 2012\Projects\PJRafa\PJRafa_Domain\obj\Debug\PJRafa_Domain.pdb
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Domain\bin\Debug\PJRafa_Domain.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Domain\bin\Debug\PJRafa_Domain.pdb
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Domain\obj\Debug\PJRafa_Domain.csprojAssemblyReference.cache
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Domain\obj\Debug\PJRafa_Domain.csproj.CoreCompileInputs.cache
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Domain\obj\Debug\PJRafa_Domain.dll
+C:\Users\Jefferson\Downloads\PJRafa\PJRafa_Domain\obj\Debug\PJRafa_Domain.pdb
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Domain\bin\Debug\PJRafa_Domain.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Domain\bin\Debug\PJRafa_Domain.pdb
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Domain\obj\Debug\PJRafa_Domain.csprojAssemblyReference.cache
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Domain\obj\Debug\PJRafa_Domain.csproj.CoreCompileInputs.cache
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Domain\obj\Debug\PJRafa_Domain.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Domain\obj\Debug\PJRafa_Domain.pdb
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Domain\bin\Debug\PJRafa_Domain.dll.config
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Domain\bin\Debug\Newtonsoft.Json.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Domain\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Domain\bin\Debug\ViaCEP.dll
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Domain\bin\Debug\Newtonsoft.Json.xml
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Domain\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\re038546\Desktop\Cursos\PJRafa\PJRafa_Domain\obj\Debug\PJRafa_Domain.csproj.CopyComplete
