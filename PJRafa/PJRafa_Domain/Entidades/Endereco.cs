@@ -16,7 +16,7 @@ namespace PJRafa_Domain.Entidades
         //contrutor deve ser implementado na camada de UI
         public Endereco(string cep)
         {
-            var End = ViaCEPClient.Search("01234567");
+            var End = ViaCEPClient.Search(cep);
             this.Logradouro = End.Street;
             this.Cidade = End.City;
             this.UF = End.StateInitials;
