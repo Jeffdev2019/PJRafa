@@ -51,6 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Argumentos\Dto_AtualizarClienteRequest.cs" />
+    <Compile Include="Argumentos\Dto_AtualizarEnderecoRequest.cs" />
+    <Compile Include="Argumentos\Dto_ClienteFiltroResponse.cs" />
     <Compile Include="Argumentos\Dto_ClienteDetalhesResponse.cs" />
     <Compile Include="Argumentos\Dto_ClienteFiltroRequest.cs" />
     <Compile Include="Argumentos\Dto_InserirClienteRequest.cs" />

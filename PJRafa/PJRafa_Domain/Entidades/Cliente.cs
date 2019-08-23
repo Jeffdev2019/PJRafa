@@ -24,7 +24,6 @@ namespace PJRafa_Domain.Entidades
 
         public string Telefone { get; set; }
 
-        public int FK_Endereco { get; set; }
         public Endereco Endereco { get; set; }
 
        

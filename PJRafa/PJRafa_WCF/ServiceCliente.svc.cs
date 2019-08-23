@@ -21,7 +21,7 @@ namespace PJRafa_WCF
 
         }
 
-        public List<Cliente> FiltrarClientes(Dto_ClienteFiltroRequest Clil)
+        public List<Dto_ClienteFiltroResponse> FiltrarClientes(Dto_ClienteFiltroRequest Clil)
         {
             return obj.SelecionarClientes(Clil);
         }
@@ -33,7 +33,7 @@ namespace PJRafa_WCF
         }
         #endregion
 
-
+        #region inserts
         public int InserirCliente(Dto_InserirClienteRequest Request)
         {
             return obj.InserirCliente(Request);
@@ -43,7 +43,35 @@ namespace PJRafa_WCF
         {
             return obj.InserirEndereco(Request);
         }
+        #endregion
+        public bool AtualizarCliente(Dto_AtualizarClienteRequest Request)
+        {
+            return obj.AtualizarCliente(Request);
+        }
 
+        public bool AtualizarEndereco(Dto_AtualizarEnderecoRequest Request)
+        {
+            return obj.AtualizarEndereco(Request);
+        }
+
+        public bool ExcluirCliente(int Id)
+        {
+            return obj.ExclusãoLogicaCliente(Id);
+        }
+
+        public bool ExcluirEnderco(int Id)
+        {
+            return obj.ExclusãoLogicaEndereco(Id);
+        }
+
+
+
+
+
+
+
+
+        #region testes
         /* public List<Cliente> Consultar(Dto_ClienteFiltro Cli)
         {
             /*if (!AutenticarUsuario(usuario, out mensagem))
@@ -82,5 +110,6 @@ namespace PJRafa_WCF
     
           return string.IsNullOrEmpty(mensagem);
         }*/
+        #endregion
     }
 }

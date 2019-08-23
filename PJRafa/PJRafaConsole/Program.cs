@@ -10,7 +10,7 @@ namespace PJRafaConsole
     {
         static void Main()
         {
-            teste("03064000");
+            
 
                 using (ServiceHost servHost = 
               new ServiceHost(
@@ -26,7 +26,9 @@ namespace PJRafaConsole
                   new BasicHttpBinding(),             
                   "ServiceCliente");
                 servHost.Open();
-                Console.WriteLine("O serviço está rodando. Pressione ENTER para interromper.");
+
+
+                    Console.WriteLine("O serviço está rodando. Pressione ENTER para interromper.");
                 Console.ReadLine();
                 servHost.Close();
               }
@@ -39,11 +41,7 @@ namespace PJRafaConsole
             }
         }
 
-        private static void teste(string v)
-        {
-            Endereco end = new Endereco(v);
-        }
-
+        
 
 
         /* #region delete logico

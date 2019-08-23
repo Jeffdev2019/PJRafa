@@ -16,7 +16,7 @@ namespace PJRafa_WCF
         List<Cliente> selecionartudo();
 
         [OperationContract]
-        List<Cliente> FiltrarClientes(Dto_ClienteFiltroRequest Request);
+        List<Dto_ClienteFiltroResponse> FiltrarClientes(Dto_ClienteFiltroRequest Request);
 
         [OperationContract]
         Dto_ClienteDetalhesResponse Consultar(int Id);
@@ -26,6 +26,15 @@ namespace PJRafa_WCF
 
         [OperationContract]
         bool InserirEndereco(Dto_InserirEnderecoRequest Request);
+
+        [OperationContract]
+        bool AtualizarCliente(Dto_AtualizarClienteRequest Request);
+        [OperationContract]
+        bool AtualizarEndereco(Dto_AtualizarEnderecoRequest request);
+        [OperationContract]
+        bool ExcluirCliente(int Id);
+        [OperationContract]
+        bool ExcluirEnderco(int Id);
 
 
         // TODO: Add your service operations here

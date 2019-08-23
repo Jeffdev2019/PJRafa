@@ -44,10 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\ClienteRepository.cs" />
-    <Compile Include="Data\Dados.cs" />
-    <Compile Include="Data\Repository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Data\Procedures.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PJRafa_Domain\PJRafa_Domain.csproj">

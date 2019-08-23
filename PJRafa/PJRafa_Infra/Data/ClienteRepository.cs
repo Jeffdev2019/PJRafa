@@ -9,9 +9,9 @@ namespace PJRafa_Infra.Data
 {
     public class ClienteRepository
     {
-        private SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["ConexaoSQL"].ToString());
+        private SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["ConexaoSQLResource"].ToString());
 
-        private System.Data.SqlClient.SqlCommand cmd = new SqlCommand();
+        private SqlCommand cmd = new SqlCommand();
 
         #region selects
 
@@ -59,7 +59,7 @@ namespace PJRafa_Infra.Data
             try
             {
                 cmd.Connection.Open();
-                cmd.ExecuteNonQuery();
+                //cmd.ExecuteNonQuery();
                 SqlDataReader dr = cmd.ExecuteReader();
                 //List<Cliente> Clientes = new List<Cliente>();
                 Cliente cli = new Cliente();
@@ -97,7 +97,7 @@ namespace PJRafa_Infra.Data
             }
  
         }
-        public List<Cliente> SelecionarClientes(Dto_ClienteFiltroRequest Request) 
+        public List<Dto_ClienteFiltroResponse> SelecionarClientes(Dto_ClienteFiltroRequest Request) 
         {
 
             cmd = new SqlCommand("SelecionarClientes", cn);
@@ -126,13 +126,11 @@ namespace PJRafa_Infra.Data
                 cmd.Connection.Open();
                 //cmd.ExecuteNonQuery();
                 SqlDataReader dr = cmd.ExecuteReader();
-                List<Cliente> Clientes = new List<Cliente>();
-               
-                Endereco end = new Endereco();
+                List<Dto_ClienteFiltroResponse> Clientes = new List<Dto_ClienteFiltroResponse>();
 
                 while (dr.Read())
                 {
-                    Cliente cli = new Cliente();
+                    Dto_ClienteFiltroResponse cli = new Dto_ClienteFiltroResponse();
                     cli.Id_Cliente = Convert.ToInt32(dr["Id_Cliente"]);
                     cli.Nome = Convert.ToString(dr["Nome"]);
                     cli.RG = Convert.ToString(dr["RG"]);
@@ -214,7 +212,7 @@ namespace PJRafa_Infra.Data
             catch (Exception)
             {
 
-                return false;
+                throw;
             }
 
 
@@ -223,48 +221,49 @@ namespace PJRafa_Infra.Data
 
         #region update
 
-        public void AtualizarCliente(int id, string Nome, string RG, string CPF, string Telefone)
+        public bool AtualizarCliente(Dto_AtualizarClienteRequest Request)
         {
             cmd = new SqlCommand("AtualizarCliente", cn);
             cmd.CommandType = System.Data.CommandType.StoredProcedure;
-            cmd.Parameters.Add(new SqlParameter("@id", id));
-            cmd.Parameters.Add(new SqlParameter("@nome", Nome));
-            cmd.Parameters.Add(new SqlParameter("@rg", RG));
-            cmd.Parameters.Add(new SqlParameter("@cpf", CPF));
-            cmd.Parameters.Add(new SqlParameter("@Telefone", Telefone));
+            cmd.Parameters.Add(new SqlParameter("@id", Request.Id_cliente));
+            cmd.Parameters.Add(new SqlParameter("@nome", Request.Nome));
+            cmd.Parameters.Add(new SqlParameter("@rg", Request.RG));
+            cmd.Parameters.Add(new SqlParameter("@cpf", Request.CPF));
+            cmd.Parameters.Add(new SqlParameter("@Telefone", Request.Telefone));
 
             try
             {
                 cmd.Connection.Open();
                 cmd.ExecuteNonQuery();
                 cmd.Connection.Close();
+                return true;
             }
             catch (Exception)
             {
-
+                
                 throw;
             }
 
 
         }
 
-        public void AtualizarEndereco(int id, string cep, string log, string city, string uf, string num, int fk_cli)
+        public bool AtualizarEndereco(Dto_AtualizarEnderecoRequest Request)
         {
             cmd = new SqlCommand("AtualizarEndereco", cn);
             cmd.CommandType = System.Data.CommandType.StoredProcedure;
-            cmd.Parameters.Add(new SqlParameter("@id", id));
-            cmd.Parameters.Add(new SqlParameter("@cep", cep));
-            cmd.Parameters.Add(new SqlParameter("@logradouro", log));
-            cmd.Parameters.Add(new SqlParameter("@cidade", city));
-            cmd.Parameters.Add(new SqlParameter("@uf", uf));
-            cmd.Parameters.Add(new SqlParameter("@numero", num));
-            cmd.Parameters.Add(new SqlParameter("@FK_Cliente", fk_cli));
+            cmd.Parameters.Add(new SqlParameter("@id", Request.Id_Endereco));
+            cmd.Parameters.Add(new SqlParameter("@cep", Request.CEP));
+            cmd.Parameters.Add(new SqlParameter("@logradouro", Request.Logradouro));
+            cmd.Parameters.Add(new SqlParameter("@cidade", Request.Cidade));
+            cmd.Parameters.Add(new SqlParameter("@uf", Request.UF));
+            cmd.Parameters.Add(new SqlParameter("@numero", Request.Numero));
 
             try
             {
                 cmd.Connection.Open();
                 cmd.ExecuteNonQuery();
                 cmd.Connection.Close();
+                return true;
             }
             catch (Exception)
             {
@@ -278,7 +277,7 @@ namespace PJRafa_Infra.Data
         #endregion
 
         #region delete logico
-        public void ExclusãoLogicaCliente(int ID)
+        public bool ExclusãoLogicaCliente(int ID)
         {
             cmd = new SqlCommand("ExclusãoLogicaCliente", cn);
             cmd.CommandType = System.Data.CommandType.StoredProcedure;
@@ -288,6 +287,7 @@ namespace PJRafa_Infra.Data
                 cmd.Connection.Open();
                 cmd.ExecuteNonQuery();
                 cmd.Connection.Close();
+                return true;
             }
             catch (Exception)
             {
@@ -296,7 +296,7 @@ namespace PJRafa_Infra.Data
             }
         }
 
-        public void ExclusãoLogicaEndereco(int ID)
+        public bool ExclusãoLogicaEndereco(int ID)
         {
             cmd = new SqlCommand("ExclusãoLogicaEndereco", cn);
             cmd.CommandType = System.Data.CommandType.StoredProcedure;
@@ -306,6 +306,7 @@ namespace PJRafa_Infra.Data
                 cmd.Connection.Open();
                 cmd.ExecuteNonQuery();
                 cmd.Connection.Close();
+                return true;
             }
             catch (Exception)
             {
