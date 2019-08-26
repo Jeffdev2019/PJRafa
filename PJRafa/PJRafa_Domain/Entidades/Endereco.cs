@@ -18,6 +18,7 @@ namespace PJRafa_Domain.Entidades
         {
             var End = ViaCEPClient.Search(cep);
             this.Logradouro = End.Street;
+
             this.Cidade = End.City;
             this.UF = End.StateInitials;
             int i = 0;
