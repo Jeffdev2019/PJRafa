@@ -35,15 +35,10 @@ C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_WCF\bin\PJRafa_WCF.dll
 C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_WCF\bin\PJRafa_WCF.pdb
 C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_WCF\bin\PJRafa_Domain.dll
 C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_WCF\bin\PJRafa_Infra.dll
-C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_WCF\bin\ViaCEP.dll
-C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_WCF\bin\Newtonsoft.Json.dll
-C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_WCF\bin\System.Net.Http.Formatting.dll
 C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_WCF\bin\PJRafa_Domain.pdb
 C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_WCF\bin\PJRafa_Domain.dll.config
 C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_WCF\bin\PJRafa_Infra.pdb
 C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_WCF\bin\PJRafa_Infra.dll.config
-C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_WCF\bin\Newtonsoft.Json.xml
-C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_WCF\bin\System.Net.Http.Formatting.xml
 C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_WCF\obj\Debug\PJRafa_WCF.csprojAssemblyReference.cache
 C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_WCF\obj\Debug\PJRafa_WCF.csproj.CoreCompileInputs.cache
 C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_WCF\obj\Debug\PJRafa_WCF.csproj.CopyComplete

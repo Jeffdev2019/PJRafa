@@ -36,13 +36,8 @@ C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_
 C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Infra.dll
 C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Infra.pdb
 C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Domain.dll
-C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_Infra\bin\Debug\ViaCEP.dll
-C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_Infra\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_Infra\bin\Debug\System.Net.Http.Formatting.dll
 C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Domain.pdb
 C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_Infra\bin\Debug\PJRafa_Domain.dll.config
-C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_Infra\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_Infra\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_Infra\obj\Debug\PJRafa_Infra.csprojAssemblyReference.cache
 C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_Infra\obj\Debug\PJRafa_Infra.csproj.CoreCompileInputs.cache
 C:\Users\Jefferson\Documents\GitHub\PJRafa\PJRafa\PJRafa_Infra\obj\Debug\PJRafa_Infra.csproj.CopyComplete
