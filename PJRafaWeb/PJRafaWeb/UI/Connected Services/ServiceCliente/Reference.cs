@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace UI.ServiceReferenceWCF {
+namespace UI.ServiceCliente {
     using System.Runtime.Serialization;
     using System;
     
@@ -26,7 +26,7 @@ namespace UI.ServiceReferenceWCF {
         private string CPFField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private UI.ServiceReferenceWCF.Endereco EnderecoField;
+        private UI.ServiceCliente.Endereco EnderecoField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private int Id_ClienteField;
@@ -64,7 +64,7 @@ namespace UI.ServiceReferenceWCF {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public UI.ServiceReferenceWCF.Endereco Endereco {
+        public UI.ServiceCliente.Endereco Endereco {
             get {
                 return this.EnderecoField;
             }
@@ -1011,50 +1011,50 @@ namespace UI.ServiceReferenceWCF {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReferenceWCF.IServiceCliente")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceCliente.IServiceCliente")]
     public interface IServiceCliente {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServiceCliente/selecionartudo", ReplyAction="http://tempuri.org/IServiceCliente/selecionartudoResponse")]
-        UI.ServiceReferenceWCF.Cliente[] selecionartudo();
+        UI.ServiceCliente.Cliente[] selecionartudo();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServiceCliente/selecionartudo", ReplyAction="http://tempuri.org/IServiceCliente/selecionartudoResponse")]
-        System.Threading.Tasks.Task<UI.ServiceReferenceWCF.Cliente[]> selecionartudoAsync();
+        System.Threading.Tasks.Task<UI.ServiceCliente.Cliente[]> selecionartudoAsync();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServiceCliente/FiltrarClientes", ReplyAction="http://tempuri.org/IServiceCliente/FiltrarClientesResponse")]
-        UI.ServiceReferenceWCF.Dto_ClienteFiltroResponse[] FiltrarClientes(UI.ServiceReferenceWCF.Dto_ClienteFiltroRequest Request);
+        UI.ServiceCliente.Dto_ClienteFiltroResponse[] FiltrarClientes(UI.ServiceCliente.Dto_ClienteFiltroRequest Request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServiceCliente/FiltrarClientes", ReplyAction="http://tempuri.org/IServiceCliente/FiltrarClientesResponse")]
-        System.Threading.Tasks.Task<UI.ServiceReferenceWCF.Dto_ClienteFiltroResponse[]> FiltrarClientesAsync(UI.ServiceReferenceWCF.Dto_ClienteFiltroRequest Request);
+        System.Threading.Tasks.Task<UI.ServiceCliente.Dto_ClienteFiltroResponse[]> FiltrarClientesAsync(UI.ServiceCliente.Dto_ClienteFiltroRequest Request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServiceCliente/Consultar", ReplyAction="http://tempuri.org/IServiceCliente/ConsultarResponse")]
-        UI.ServiceReferenceWCF.Dto_ClienteDetalhesResponse Consultar(int Id);
+        UI.ServiceCliente.Dto_ClienteDetalhesResponse Consultar(int Id);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServiceCliente/Consultar", ReplyAction="http://tempuri.org/IServiceCliente/ConsultarResponse")]
-        System.Threading.Tasks.Task<UI.ServiceReferenceWCF.Dto_ClienteDetalhesResponse> ConsultarAsync(int Id);
+        System.Threading.Tasks.Task<UI.ServiceCliente.Dto_ClienteDetalhesResponse> ConsultarAsync(int Id);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServiceCliente/InserirCliente", ReplyAction="http://tempuri.org/IServiceCliente/InserirClienteResponse")]
-        int InserirCliente(UI.ServiceReferenceWCF.Dto_InserirClienteRequest Request);
+        int InserirCliente(UI.ServiceCliente.Dto_InserirClienteRequest Request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServiceCliente/InserirCliente", ReplyAction="http://tempuri.org/IServiceCliente/InserirClienteResponse")]
-        System.Threading.Tasks.Task<int> InserirClienteAsync(UI.ServiceReferenceWCF.Dto_InserirClienteRequest Request);
+        System.Threading.Tasks.Task<int> InserirClienteAsync(UI.ServiceCliente.Dto_InserirClienteRequest Request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServiceCliente/InserirEndereco", ReplyAction="http://tempuri.org/IServiceCliente/InserirEnderecoResponse")]
-        bool InserirEndereco(UI.ServiceReferenceWCF.Dto_InserirEnderecoRequest Request);
+        bool InserirEndereco(UI.ServiceCliente.Dto_InserirEnderecoRequest Request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServiceCliente/InserirEndereco", ReplyAction="http://tempuri.org/IServiceCliente/InserirEnderecoResponse")]
-        System.Threading.Tasks.Task<bool> InserirEnderecoAsync(UI.ServiceReferenceWCF.Dto_InserirEnderecoRequest Request);
+        System.Threading.Tasks.Task<bool> InserirEnderecoAsync(UI.ServiceCliente.Dto_InserirEnderecoRequest Request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServiceCliente/AtualizarCliente", ReplyAction="http://tempuri.org/IServiceCliente/AtualizarClienteResponse")]
-        bool AtualizarCliente(UI.ServiceReferenceWCF.Dto_AtualizarClienteRequest Request);
+        bool AtualizarCliente(UI.ServiceCliente.Dto_AtualizarClienteRequest Request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServiceCliente/AtualizarCliente", ReplyAction="http://tempuri.org/IServiceCliente/AtualizarClienteResponse")]
-        System.Threading.Tasks.Task<bool> AtualizarClienteAsync(UI.ServiceReferenceWCF.Dto_AtualizarClienteRequest Request);
+        System.Threading.Tasks.Task<bool> AtualizarClienteAsync(UI.ServiceCliente.Dto_AtualizarClienteRequest Request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServiceCliente/AtualizarEndereco", ReplyAction="http://tempuri.org/IServiceCliente/AtualizarEnderecoResponse")]
-        bool AtualizarEndereco(UI.ServiceReferenceWCF.Dto_AtualizarEnderecoRequest request);
+        bool AtualizarEndereco(UI.ServiceCliente.Dto_AtualizarEnderecoRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServiceCliente/AtualizarEndereco", ReplyAction="http://tempuri.org/IServiceCliente/AtualizarEnderecoResponse")]
-        System.Threading.Tasks.Task<bool> AtualizarEnderecoAsync(UI.ServiceReferenceWCF.Dto_AtualizarEnderecoRequest request);
+        System.Threading.Tasks.Task<bool> AtualizarEnderecoAsync(UI.ServiceCliente.Dto_AtualizarEnderecoRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServiceCliente/ExcluirCliente", ReplyAction="http://tempuri.org/IServiceCliente/ExcluirClienteResponse")]
         bool ExcluirCliente(int Id);
@@ -1070,12 +1070,12 @@ namespace UI.ServiceReferenceWCF {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IServiceClienteChannel : UI.ServiceReferenceWCF.IServiceCliente, System.ServiceModel.IClientChannel {
+    public interface IServiceClienteChannel : UI.ServiceCliente.IServiceCliente, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class ServiceClienteClient : System.ServiceModel.ClientBase<UI.ServiceReferenceWCF.IServiceCliente>, UI.ServiceReferenceWCF.IServiceCliente {
+    public partial class ServiceClienteClient : System.ServiceModel.ClientBase<UI.ServiceCliente.IServiceCliente>, UI.ServiceCliente.IServiceCliente {
         
         public ServiceClienteClient() {
         }
@@ -1096,59 +1096,59 @@ namespace UI.ServiceReferenceWCF {
                 base(binding, remoteAddress) {
         }
         
-        public UI.ServiceReferenceWCF.Cliente[] selecionartudo() {
+        public UI.ServiceCliente.Cliente[] selecionartudo() {
             return base.Channel.selecionartudo();
         }
         
-        public System.Threading.Tasks.Task<UI.ServiceReferenceWCF.Cliente[]> selecionartudoAsync() {
+        public System.Threading.Tasks.Task<UI.ServiceCliente.Cliente[]> selecionartudoAsync() {
             return base.Channel.selecionartudoAsync();
         }
         
-        public UI.ServiceReferenceWCF.Dto_ClienteFiltroResponse[] FiltrarClientes(UI.ServiceReferenceWCF.Dto_ClienteFiltroRequest Request) {
+        public UI.ServiceCliente.Dto_ClienteFiltroResponse[] FiltrarClientes(UI.ServiceCliente.Dto_ClienteFiltroRequest Request) {
             return base.Channel.FiltrarClientes(Request);
         }
         
-        public System.Threading.Tasks.Task<UI.ServiceReferenceWCF.Dto_ClienteFiltroResponse[]> FiltrarClientesAsync(UI.ServiceReferenceWCF.Dto_ClienteFiltroRequest Request) {
+        public System.Threading.Tasks.Task<UI.ServiceCliente.Dto_ClienteFiltroResponse[]> FiltrarClientesAsync(UI.ServiceCliente.Dto_ClienteFiltroRequest Request) {
             return base.Channel.FiltrarClientesAsync(Request);
         }
         
-        public UI.ServiceReferenceWCF.Dto_ClienteDetalhesResponse Consultar(int Id) {
+        public UI.ServiceCliente.Dto_ClienteDetalhesResponse Consultar(int Id) {
             return base.Channel.Consultar(Id);
         }
         
-        public System.Threading.Tasks.Task<UI.ServiceReferenceWCF.Dto_ClienteDetalhesResponse> ConsultarAsync(int Id) {
+        public System.Threading.Tasks.Task<UI.ServiceCliente.Dto_ClienteDetalhesResponse> ConsultarAsync(int Id) {
             return base.Channel.ConsultarAsync(Id);
         }
         
-        public int InserirCliente(UI.ServiceReferenceWCF.Dto_InserirClienteRequest Request) {
+        public int InserirCliente(UI.ServiceCliente.Dto_InserirClienteRequest Request) {
             return base.Channel.InserirCliente(Request);
         }
         
-        public System.Threading.Tasks.Task<int> InserirClienteAsync(UI.ServiceReferenceWCF.Dto_InserirClienteRequest Request) {
+        public System.Threading.Tasks.Task<int> InserirClienteAsync(UI.ServiceCliente.Dto_InserirClienteRequest Request) {
             return base.Channel.InserirClienteAsync(Request);
         }
         
-        public bool InserirEndereco(UI.ServiceReferenceWCF.Dto_InserirEnderecoRequest Request) {
+        public bool InserirEndereco(UI.ServiceCliente.Dto_InserirEnderecoRequest Request) {
             return base.Channel.InserirEndereco(Request);
         }
         
-        public System.Threading.Tasks.Task<bool> InserirEnderecoAsync(UI.ServiceReferenceWCF.Dto_InserirEnderecoRequest Request) {
+        public System.Threading.Tasks.Task<bool> InserirEnderecoAsync(UI.ServiceCliente.Dto_InserirEnderecoRequest Request) {
             return base.Channel.InserirEnderecoAsync(Request);
         }
         
-        public bool AtualizarCliente(UI.ServiceReferenceWCF.Dto_AtualizarClienteRequest Request) {
+        public bool AtualizarCliente(UI.ServiceCliente.Dto_AtualizarClienteRequest Request) {
             return base.Channel.AtualizarCliente(Request);
         }
         
-        public System.Threading.Tasks.Task<bool> AtualizarClienteAsync(UI.ServiceReferenceWCF.Dto_AtualizarClienteRequest Request) {
+        public System.Threading.Tasks.Task<bool> AtualizarClienteAsync(UI.ServiceCliente.Dto_AtualizarClienteRequest Request) {
             return base.Channel.AtualizarClienteAsync(Request);
         }
         
-        public bool AtualizarEndereco(UI.ServiceReferenceWCF.Dto_AtualizarEnderecoRequest request) {
+        public bool AtualizarEndereco(UI.ServiceCliente.Dto_AtualizarEnderecoRequest request) {
             return base.Channel.AtualizarEndereco(request);
         }
         
-        public System.Threading.Tasks.Task<bool> AtualizarEnderecoAsync(UI.ServiceReferenceWCF.Dto_AtualizarEnderecoRequest request) {
+        public System.Threading.Tasks.Task<bool> AtualizarEnderecoAsync(UI.ServiceCliente.Dto_AtualizarEnderecoRequest request) {
             return base.Channel.AtualizarEnderecoAsync(request);
         }
         

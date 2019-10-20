@@ -10,32 +10,29 @@
     <script src="Scripts/jquery-3.4.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script type="text/javascript">
-        function Start() {
-            $('#btnCoC').collapse({
-                show: true
-            })
-            $('#btnCaC').collapse({
-                show: true
-            })    
-        }
         function TabCli() {
-            $('#FiltroClienteTb').collapse({
-                show: true
+            $('#TxtBxs').hide({
+                show : false
             })
-            document.getElementById("TxtBxs").style.visibility = "hidden";
+            $('#FiltroClienteTb').show({
+                show : true
+            })
             
         }
         function TxtCli() {
-            document.getElementById("FiltroClienteTb").style.visibility = "hidden"; 
-            $('#TxtBxs').collapse({
-                show: true
+            $('#FiltroClienteTb').hide({
+                show : false
             })
-            $('#ConsultarCliente').collapse({
-                show: true
+            $('#TxtBxs').show({
+                show : true
             })
         }
+        function voltar() {
+            document.getElementById("FiltroClienteTb").hidden;
+            document.getElementById("TxtBxs").hidden;
+        }
     </script>
-    
+                
 </head>
 <body onload="Start()">
     <form id="form1" runat="server">
@@ -59,38 +56,33 @@
                     </p>
 
                     
-                        <div id="btnCoC" class="collapse multi-collapse">
+                        <div>
                             
                             <p>
-                                <button class="btn btn-primary" id="ConsultarCliente" type="button" data-toggle="collapse" data-target="#btnCoC" onclick="TabCli()" aria-expanded="false" aria-controls="collapseExample">
+                                <button class="btn btn-primary" id="ConsultarCliente" type="button" data-toggle="collapse" data-target="#FiltroClienteTb" onclick="TabCli()" aria-expanded="false">
                                    Consultar Cliente
-                                </button>                
-                            </p>
-                        </div>
-
-                    
-                    <div id="btnCaC" class="collapse multi-collapse">
-                            
-                            <p>
-                                <button class="btn btn-primary" id="CadastrarCliente" type="button" data-toggle="collapse" data-target="#btnCaC" onclick="TxtCli()" aria-expanded="false" aria-controls="collapseExample">
+                                </button>  
+                                <button class="btn btn-primary" id="CadastrarCliente" type="button" data-toggle="collapse" data-target="#TxtBxs" onclick="TxtCli()" aria-expanded="false">
                                    Cadastrar Cliente
                                 </button>
-                                
                             </p>
                         </div>
-                    <a href="../Index.aspx" class="btn btn-link btn-lg" style="width:150px; position: absolute; left: 1000px; top: 400px;" >Voltar</a>
-                    
-                    <div id="FiltroClienteTb" class="collapse multi-collapse">
-                        <div class="card card-body">
 
+                    
+                    
+                    <a href="../Index.aspx" class="btn btn-link btn-lg" style="width:150px; position: absolute; left: 1000px; top: 380px;" >Voltar</a>
+                    
+                    <div id="FiltroClienteTb" class="collapse">
+                        <div class="card card-body">
+                            <button class="btn btn-link" onclick="voltar()" style="width:150px; color:red; position: absolute; left: 1005px; top: 1px;" >X</button>
                                 Nome: <br />
-                             <asp:TextBox ID="txtNome" runat="server" placeholder="Nome" Width="45%" CssClass="form-control" />
+                             <asp:TextBox ID="txtNome" runat="server" placeholder="Nome" Width="75%" CssClass="form-control" />
                                  RG: <br />
-                             <asp:TextBox ID="txtRG" runat="server" placeholder="RG" Width="45%" CssClass="form-control" />
+                             <asp:TextBox ID="txtRG" runat="server" placeholder="RG" Width="75%" CssClass="form-control" />
                                  CPF: <br />
-                             <asp:TextBox ID="txtCPF" runat="server" placeholder="CPF" Width="45%" CssClass="form-control" />
+                             <asp:TextBox ID="txtCPF" runat="server" placeholder="CPF" Width="75%" CssClass="form-control" />
                              <br /> <br />
-                             <button type="button" class="btn btn-primary" style="width:150px; position: absolute; left: 590px; top: 168px;">Buscar Cliente</button>
+                             <button type="button" class="btn btn-primary" style="width:150px; position: absolute; left: 900px; top: 168px;">Buscar Cliente</button>
                              <br /> <br /><hr style=" border-width: 2px; border-color:#363636 "/>
                             
                             
@@ -114,28 +106,29 @@
 
                     
 
-                    <div class="collapse multi-collapse" id="TxtBxs" style="width:1000px; height:1000px; position: absolute; left: 150px; top: 450px; ">
+                    <div class="collapse" id="TxtBxs" style="width:1000px; height:1000px; position: absolute; left: 150px; top: 450px; ">
                       <div class="card card-body">
+                          <button class="btn btn-link" onclick="voltar()" style="width:150px; color:red; position: absolute; left: 900px; top: 1px;" >X</button>
                                  Nome: <br />
-                             <asp:TextBox ID="TextBox1" runat="server" placeholder="Nome" Width="45%" CssClass="form-control" />
+                             <asp:TextBox ID="TextBox1" runat="server" placeholder="Nome" Width="70%" CssClass="form-control" />
                                  RG: <br />
-                             <asp:TextBox ID="TextBox2" runat="server" placeholder="RG" Width="45%" CssClass="form-control" />
+                             <asp:TextBox ID="TextBox2" runat="server" placeholder="RG" Width="70%" CssClass="form-control" />
                                  CPF: <br />
-                             <asp:TextBox ID="TextBox3" runat="server" placeholder="CPF" Width="45%" CssClass="form-control" />
+                             <asp:TextBox ID="TextBox3" runat="server" placeholder="CPF" Width="70%" CssClass="form-control" />
                                  Telefone: <br /> 
-                             <asp:TextBox ID="TextBox4" runat="server" placeholder="Telefone" Width="45%" CssClass="form-control" />
+                             <asp:TextBox ID="TextBox4" runat="server" placeholder="Telefone" Width="70%" CssClass="form-control" />
                                  CEP:<br />
-                             <asp:TextBox ID="TextBox5" runat="server" placeholder="CEP" Width="45%" CssClass="form-control" />
+                             <asp:TextBox ID="TextBox5" runat="server" placeholder="CEP" Width="70%" CssClass="form-control" />
                              <button type="button" class="btn btn-primary" style="width:150px; position: absolute; left: 750px; top: 293px; ">Buscar CEP</button>
                              <br />
                                  Endereço:<br />
-                             <asp:TextBox ID="TextBox6" runat="server" placeholder="Endereço" Width="45%" CssClass="form-control" />
+                             <asp:TextBox ID="TextBox6" runat="server" placeholder="Endereço" Width="70%" CssClass="form-control" />
                                  Cidade:<br />
-                             <asp:TextBox ID="TextBox7" runat="server" placeholder="Cidade" Width="45%" CssClass="form-control" />
+                             <asp:TextBox ID="TextBox7" runat="server" placeholder="Cidade" Width="70%" CssClass="form-control" />
                                  UF:<br />
-                             <asp:TextBox ID="TextBox8" runat="server" placeholder="UF" Width="45%" CssClass="form-control" />
+                             <asp:TextBox ID="TextBox8" runat="server" placeholder="UF" Width="70%" CssClass="form-control" />
                                  Número:<br />
-                             <asp:TextBox ID="TextBox9" runat="server" placeholder="Número" Width="45%" CssClass="form-control" />
+                             <asp:TextBox ID="TextBox9" runat="server" placeholder="Número" Width="70%" CssClass="form-control" />
                       </div><br /><br />
                     </div>
                    

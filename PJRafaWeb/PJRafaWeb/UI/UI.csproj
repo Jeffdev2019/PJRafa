@@ -79,10 +79,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ServiceReferenceWCF\item.disco" />
-    <None Include="Connected Services\ServiceReferenceWCF\configuration91.svcinfo" />
-    <None Include="Connected Services\ServiceReferenceWCF\configuration.svcinfo" />
-    <None Include="Connected Services\ServiceReferenceWCF\Reference.svcmap">
+    <None Include="Connected Services\ServiceCliente\item.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceCliente\item1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceCliente\item2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceCliente\item3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceCliente\ServiceCliente.wsdl" />
+    <Content Include="Connected Services\ServiceCliente\UI.ServiceCliente.Cliente.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\ServiceCliente\UI.ServiceCliente.Dto_ClienteDetalhesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\ServiceCliente\UI.ServiceCliente.Dto_ClienteFiltroResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\ServiceCliente\item.disco" />
+    <None Include="Connected Services\ServiceCliente\configuration91.svcinfo" />
+    <None Include="Connected Services\ServiceCliente\configuration.svcinfo" />
+    <None Include="Connected Services\ServiceCliente\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
@@ -132,25 +154,9 @@
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
     <Content Include="Web.config" />
-    <None Include="Connected Services\ServiceReferenceWCF\item2.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\ServiceReferenceWCF\item3.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\ServiceReferenceWCF\ServiceCliente.wsdl" />
-    <Content Include="Connected Services\ServiceReferenceWCF\UI.ServiceReferenceWCF.Cliente.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\ServiceReferenceWCF\UI.ServiceReferenceWCF.Dto_ClienteDetalhesResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\ServiceReferenceWCF\UI.ServiceReferenceWCF.Dto_ClienteFiltroResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\ServiceReferenceWCF\Reference.cs">
+    <Compile Include="Connected Services\ServiceCliente\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -188,12 +194,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ServiceReferenceWCF\item.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\ServiceReferenceWCF\item1.xsd">
-      <SubType>Designer</SubType>
-    </None>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
@@ -217,7 +217,7 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\ServiceReferenceWCF\" />
+    <WCFMetadataStorage Include="Connected Services\ServiceCliente\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
